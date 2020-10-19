@@ -1,2 +1,2 @@
 # php_sendmail_demo
-![alt text](nmcu.jpg "nmcu")<br>
+![alt text](Форма пустая.PNG "screen")<br>
