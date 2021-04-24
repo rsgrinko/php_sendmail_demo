@@ -1,5 +1,5 @@
 <?php
-include 'func.php';
+require_once 'func.php';
 ?>
 <html>
 <head>
