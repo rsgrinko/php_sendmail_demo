@@ -18,7 +18,7 @@ $name = htmlspecialchars($_POST['name']);
 $number = htmlspecialchars($_POST['number']);
 $email = htmlspecialchars($_POST['email']);
 
-//Формируем текст письма
+// Формируем текст письма
 $text = 'Отправлено письмо с сайта '.$_SERVER['SERVER_NAME'].'. ФИО: '.$name.', телефон: '.$number.', Email: '.$email.', Сообщение: "'.$msg.'". Используйте для ответа адрес почты, указанный в теле сообщения.';
 
 if (isset($_FILES['uploadedFile']) && $_FILES['uploadedFile']['error'] === UPLOAD_ERR_OK) {

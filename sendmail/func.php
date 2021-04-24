@@ -3,7 +3,7 @@ function check_valid($code) {
     return ($code ? '<small><i><font color="red">* Поле не заполненно</font></i></small><br>' : '');
 }
 
-function send_mail($to, $thm, $html, $path, $filename){
+function send_mail($to, $thm, $html, $path, $filename) {
     $fp = fopen($path,'r');
     if(!$fp) exit('Внутренняя ошибка. Чтения файла невозможно.');
     $file = fread($fp, filesize($path));
